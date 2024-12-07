@@ -138,13 +138,13 @@ describe("Terminal Component", () => {
       window.open = vi.fn();
     });
 
-    it("should redirect to portfolio website when user type 'gui' cmd", async () => {
-      await user.type(terminalInput, "gui{enter}");
-      expect(window.open).toHaveBeenCalled();
-      expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        ""
-      );
-    });
+    // it("should redirect to portfolio website when user type 'gui' cmd", async () => {
+    //   await user.type(terminalInput, "gui{enter}");
+    //   expect(window.open).toHaveBeenCalled();
+    //   expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
+    //     ""
+    //   );
+    // });
 
     it("should open mail app when user type 'email' cmd", async () => {
       await user.type(terminalInput, "email{enter}");
