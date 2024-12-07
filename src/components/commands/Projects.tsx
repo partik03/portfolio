@@ -56,27 +56,39 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Funworld Bangalore",
+    desc: "A Full Stack Website for a leading Water Park in Bangalore",
+    url: "https://funworldblr.com/",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "Freshers Survival Bot",
+    desc: "A Telegram Bot for my college freshers",
+    url: "https://t.me/freshersSurvivalBot",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "Top1Percent Testing Portal",
+    desc: "Testing portal for a leading GMAT Institute in India",
+    url: "https://top-1-percent-nextjs.vercel.app/",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "SnapX: Metamask Snap",
+    desc: "A metamask snap for recovering lost wallet using Biometric Authentication",
+    url: "https://github.com/partik03/snapx",
+  },
+  {
+    id: 5,
+    title: "Nodecloud",
+    desc: "An NPM package providing a unified package for multiple cloud providers",
+    url: "https://github.com/partik03/nodecloud",
+  },
+  {
+    id: 6,
+    title: "RustCloud",
+    desc: "An Rust Crate providing a unified package for multiple cloud providers.",
+    url: "https://github.com/partik03/rustcloud",
   },
 ];
 
